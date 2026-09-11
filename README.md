@@ -35,11 +35,11 @@ Build a small Microsoft 365 security operations baseline that applies four core 
 - ├── docs/
 - │   └── lab-notes.md                 ← Step-by-step notes mirroring every screenshot
 - └── screenshots/
--       ├── lab1-tenant-entra-setup/           ← 19 screenshots
--       ├── lab2-e5-trial-domain/              ←  5 screenshots
--       ├── lab3-admin-accounts/               ←  13 screenshots
--       └── lab 4- standard-users/             ←  7 screenshots
--       └── lab 5- defender-xdr-alerts/        ← 14 screenshots
+-       ├── lab1-tenant-entra-setup/           ←  10 screenshots
+-       ├── lab2-e5-trial-domain/              ←   3 screenshots
+-       ├── lab3-admin-accounts/               ←  12 screenshots
+-       └── lab 4- standard-users/             ←   7 screenshots
+-       └── lab 5- defender-xdr-alerts/        ←  11 screenshots
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
