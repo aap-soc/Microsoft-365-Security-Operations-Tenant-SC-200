@@ -37,7 +37,7 @@ Selected **+ New user** icon,
 
 
 
-then **Create new user**.
+Then **Create new user**.
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/04-image12.png)
 
 
@@ -105,5 +105,117 @@ Lab 2 complete ✅
 
 **Objective**: Create two distinct administrative accounts - a Global Administrator and a dedicated Security Administrator, rather than a single all-powerful login.
 
-**Step 1 — Create Lab Admin_1**
+**Step 1 - Create Lab Admin_1**
 Users → Active users → Add a user. Under the tenant domain, added admin account **Lab Admin_1**
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/01-image27.png)
+
+
+
+**Step 2 - Assign E5 Licence**
+Lab Admin_1 requires access to Microsoft security products such as MS XDR, MS Sentinel integrations, and MS Defender for Endpoint, so a **Microsoft 365 E5** licence was assigned by ticking the box to enable these capabilities.
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/02-image28.png)
+
+
+
+**Step 3 - Assign Global Administrator Role**
+Selected **Admin center access** under Roles, then ticked **Global Administrator**. Clicked Next to progress to the Review and finish page.
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/03-image29.png)
+
+
+
+**Step 4 — Confirm and Close**
+Reviewed the admin user data, selected **Finish adding**, confirmed **Lab Admin_1** was created
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/04-image30.png)
+
+
+
+
+
+
+Then selected **Close**. 
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/05-image31.png)
+
+
+
+
+
+
+
+
+
+
+Lab Admin_1 is now displayed as an Active user with a Microsoft 365 E5 licence assigned.
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/06-image32.png)
+
+
+
+
+
+
+
+
+
+**Step 5 - Create a Dedicated Security Operations Account**
+Selected **Add a user** to create a second account, used for investigations and threat-hunting activities throughout this project. Filled in the basic information for this **Security Analyst** user account.
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/07-image33.png)
+
+
+
+
+
+
+
+
+
+**Step 6 - Assign Licence and Security Administrator Role**
+Assigned the same E5 licence. 
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/08-image34.png)
+
+
+
+
+
+
+
+Under Roles, selected **Admin center access**, scrolled to the **Security & Compliance** section, and selected **Security Administrator**, providing access to Microsoft security products without granting full tenant-wide administrative permissions
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/09-image35.png)
+
+
+
+
+
+
+
+**Step 7 - Confirm**
+Reviewed all information and selected **Finish adding**. 
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/10-image36.png)
+
+
+
+
+
+
+
+
+
+Both **Lab Admin_1** and the **Security Analyst** admin account are now Active users assigned Microsoft 365 E5 licences - these accounts are used for the remainder of the project.
+![Navigate to Entra ID](../screenshots/lab3-admin-accounts/12-image38.png)
+
+
+
+
+
+
+
+
+
+![Navigate to Entra ID](../)
+
+
+
+
+
+
+
+
+![Navigate to Entra ID](../)
