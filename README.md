@@ -43,3 +43,15 @@ Build a small Microsoft 365 security operations baseline that applies four core 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🧠 Why These Services Matter in Security Operations 
+
+|               **Service**                        |                  **Security Purpose**                        |                                     Real-World Use                                                    |                                 
+|--------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+|         **Entra ID Tenant Setup**                |  Establishes the identity foundation for every other control | Every Microsoft 365 security control (Defender, Purview, Intune) is built on top of Entra ID identity |                
+|                                                  |                                                              |                                                                                                       |
+|  **Global Admin / Security Admin Separation**    |    Restricts full tenant control to a dedicated account      |     Prevents a compromised security-operations login from becoming a full tenant takeover             |       
+|                                                  |                                                              |                                                                                                       |
+|     **Least-Privilege Standard Users**           |       Ensures regular accounts carry no admin rights         |       Limits blast radius if a standard user's credentials are phished or compromised                 |
+|                                                  |                                                              |                                                                                                       |
+|   **Defender XDR Incident Notifications**        | Auto routes medium/high severity alerts to the right people  |            Primary mechanism for ensuring security incidents are seen and actioned promptly           |
