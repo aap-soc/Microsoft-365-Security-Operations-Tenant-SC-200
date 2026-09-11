@@ -179,7 +179,7 @@ Currently extending this tenant into Microsoft Defender for Endpoint as part of 
 
 ## 🔗 Related Projects
 
-- 🔐 AWS Security Controls Lab 
+- 🔐 AWS Security Controls Lab (https://github.com/aap-soc/AWS-Security-Controls-Lab)
 - 🖥️ Virtualisation Lab - Ubuntu on VirtualBox (https://github.com/aap-soc/Virtualisation-Lab)
 - 🔐 Linux Security & Log Handling Portfolio (https://github.com/aap-soc/linux-security-portfolio)
 
