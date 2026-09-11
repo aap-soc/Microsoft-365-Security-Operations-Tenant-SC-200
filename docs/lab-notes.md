@@ -6,23 +6,23 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Lab 1 — Microsoft 365 Tenant & Entra ID Setup
+## Lab 1 - Microsoft 365 Tenant & Entra ID Setup
 
 **Objective**: Stand up the tenant and establish the Entra ID identity foundation everything else builds on.
 
-**Step 1 — Navigate to Entra ID**
+**Step 1 - Navigate to Entra ID**
 From the Microsoft Azure homepage, selected the top left menu icon, then selected Entra.
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/01-image9.png)
 
 
 
-**Step 2 — Open Users**
+**Step 2 - Open Users**
 Selected **Users** from the Entra ID navigation.
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/02-image10.png) 
 
 
 
-**Step 3 — Create New User**
+**Step 3 - Create New User**
 Selected **+ New user** icon, 
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/03-image11.png)
 
@@ -45,7 +45,7 @@ then **Create new user**.
 
 
 
-**Step 4 — Assign Directory Role**
+**Step 4 - Assign Directory Role**
 Selected **Assignments**, 
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/05-image13.png)
 
@@ -61,7 +61,7 @@ then **+ Add role**, which displayed the Directory roles panel.
 
 
 
-**Step 5 — Select Global Administrator**
+**Step 5 - Select Global Administrator**
 Searched "Global Admin" in the search field, selected the **Global Administrator** box (blue tick displayed), then clicked **Select**.
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/07-image15.png)
 
@@ -87,3 +87,23 @@ Lab 1 complete ✅
 
 **Objective**: Provision the E5 licence tier required for Defender XDR, Sentinel integrations and other security tooling.
 
+**Step 1 - Start the E5 Trial**
+Marketplace → Microsoft 365 E5 → Start free trial.
+![Navigate to Entra ID](../screenshots/lab2-e5-trial-domain/01-image21.png)
+
+
+
+**Step 2 - Verify Licence**
+Selected Billing → Licences and confirmed Microsoft 365 E5 was displayed under Licences.
+![Navigate to Entra ID](../screenshots/lab2-e5-trial-domain/03-image24.png)
+
+Lab 2 complete ✅
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Lab 3-  Administrative Account Separation of Duties
+
+**Objective**: Create two distinct administrative accounts - a Global Administrator and a dedicated Security Administrator, rather than a single all-powerful login.
+
+**Step 1 — Create Lab Admin_1**
+Users → Active users → Add a user. Under the tenant domain, added admin account **Lab Admin_1**
