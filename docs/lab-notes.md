@@ -79,7 +79,7 @@ Lab 1 complete ✅
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Lab 2 — Microsoft 365 E5 Trial & Domain Configuration
+## Lab 2 - Microsoft 365 E5 Trial & Domain Configuration
 
 **Objective**: Provision the E5 licence tier required for Defender XDR, Sentinel integrations and other security tooling.
 
@@ -97,7 +97,7 @@ Lab 2 complete ✅
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Lab 3-  Administrative Account Separation of Duties
+## Lab 3 - Administrative Account Separation of Duties
 
 **Objective**: Create two distinct administrative accounts - a Global Administrator and a dedicated Security Administrator, rather than a single all-powerful login.
 
@@ -199,7 +199,7 @@ Lab 3 complete ✅
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Lab 4 — Standard User Provisioning (Least Privilege)
+## Lab 4 - Standard User Provisioning (Least Privilege)
 
 **Objective**: Provision standard employee accounts with no administrative access, to represent a realistic organisation for future sign-in activity, device enrolment, investigations and attack-simulation exercises.
 
@@ -297,3 +297,12 @@ Reviewed the summary page (rule name, source selection, severity levels, recipie
 
 The new notification rule was created successfully.
 ![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/11-image58.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Lab 6 - Microsoft Defender for Endpoint (In Progress)
+
+Extending the tenant into Microsoft Defender for Endpoint as part of ongoing SC-200 coursework. Notes and screenshots to follow as this lab is completed.
+
