@@ -33,10 +33,6 @@ Selected **+ New user** icon,
 
 
 
-
-
-
-
 Then **Create new user**.
 ![Navigate to Entra ID](../screenshots/lab1-tenant-entra-setup/04-image12.png)
 
@@ -134,8 +130,6 @@ Reviewed the admin user data, selected **Finish adding**, confirmed **Lab Admin_
 
 Then selected **Close**. 
 ![Navigate to Entra ID](../screenshots/lab3-admin-accounts/05-image31.png)
-
-
 
 
 
@@ -246,22 +240,14 @@ Lab 4 complete ✅
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## Lab 5 — Microsoft Defender XDR: Incident Alert Notifications
+## Lab 5 - Microsoft Defender XDR: Incident Alert Notifications
 
 **Objective**: Configure alert email notifications in Defender XDR so security teams are informed automatically when important security events are detected.
 
 
-
-![Navigate to Entra ID](../)
-
-
-
-
-
-
-
-
-![Navigate to Entra ID](../)
+**Step 1 - Navigate to Defender XDR Settings**
+Show navigation → System → Settings → Microsoft Defender XDR.
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/01-image48.png)
 
 
 
@@ -269,29 +255,45 @@ Lab 4 complete ✅
 
 
 
-
-![Navigate to Entra ID](../)
-
-
-
+**Step 2 - Open Email Notifications**
+Within Microsoft Defender XDR, selected **Email notification**. Email notifications allow organisations to automatically notify security personnel whenever incidents matching specific criteria are generated, ensuring important security events are communicated to the appropriate teams for investigation and response.
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/02-image49.png)
 
 
 
 
 
 
-
-
-![Navigate to Entra ID](../)
-
-
-
-
-
-
-![Navigate to Entra ID](../)
+**Step 3 — Create a Notification Rule**
+Selected **+ Add incident notification rule**
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/03-image50.png)
 
 
 
 
-![Navigate to Entra ID](../)
+I then provide a **name** and **description** for this notification email rule to make it easier for analyst to identify. 
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/04-image51.png)
+
+
+**Step 4 — Scope by Severity**
+Under Alert severity, selected both **Medium** and **High** severity incidents,  a scoping choice commonly used by security teams to capture important incidents without generating excessive notification noise. Clicked Next.
+
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/07-image54.png)
+
+
+
+
+**Step 5 - Add Recipient**
+Used the admin address as the recipient of the alerts, then clicked Add. Verified the admin address appeared in the list of recipients, meaning notifications would be received when incidents occur.
+
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/08-image55.png)
+
+
+
+**Step 6 - Review and Submit**
+Reviewed the summary page (rule name, source selection, severity levels, recipient information) and clicked **Submit**. 
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/10-image57.png)
+
+
+The new notification rule was created successfully.
+![Navigate to Entra ID](../screenshots/lab5-defender-xdr-alerts/11-image58.png)
