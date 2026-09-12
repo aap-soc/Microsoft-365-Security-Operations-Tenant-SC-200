@@ -201,6 +201,58 @@ Reviewed all information and selected **Finish adding**.
 Both **Lab Admin_1** and the **Security Analyst** admin account are now Active users assigned Microsoft 365 E5 licences - these accounts are used for the remainder of the project.
 ![Navigate to Entra ID](../screenshots/lab3-admin-accounts/12-image38.png)
 
+Lab 3 complete ✅
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Lab 4 — Standard User Provisioning (Least Privilege)
+
+**Objective**: Provision standard employee accounts with no administrative access, to represent a realistic organisation for future sign-in activity, device enrolment, investigations and attack-simulation exercises.
+
+
+**Step 1 - Create First Standard User**
+Via Add a user, created **John Smith** 
+![Navigate to Entra ID](../screenshots/lab4-standard-users/01-image39.png)
+
+along with a password, and assigned a Microsoft 365 E5 licence, ensuring the user can participate in future Microsoft Defender, Intune, and identity-related labs.
+![Navigate to Entra ID](../screenshots/lab4-standard-users/02-image40.png)
+
+
+
+**Step 2 — Apply Least Privilege**
+Following the principle of least privilege, standard users should only have the permissions required for their daily tasks. Ensured **User (no admin center access)** was selected, then clicked Next.
+![Navigate to Entra ID](../screenshots/lab4-standard-users/03-image41.png)
+
+
+
+
+**Step 3 — Review and Finish**
+Reviewed the settings
+![Navigate to Entra ID](../screenshots/lab4-standard-users/04-image42.png)
+
+
+And selected **Finish adding**, then **Close**.
+![Navigate to Entra ID](../screenshots/lab4-standard-users/05-image43.png)
+
+
+
+**Step 4 — Create Additional Standard Users**
+Created four further standard user accounts following the same pattern, visible on the Active users page.
+![Navigate to Entra ID](../screenshots/lab4-standard-users/07-image45.png)
+
+
+Lab 4 complete ✅
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Lab 5 — Microsoft Defender XDR: Incident Alert Notifications
+
+**Objective**: Configure alert email notifications in Defender XDR so security teams are informed automatically when important security events are detected.
+
+
+
+![Navigate to Entra ID](../)
 
 
 
@@ -214,6 +266,30 @@ Both **Lab Admin_1** and the **Security Analyst** admin account are now Active u
 
 
 
+
+
+
+
+![Navigate to Entra ID](../)
+
+
+
+
+
+
+
+
+
+
+
+![Navigate to Entra ID](../)
+
+
+
+
+
+
+![Navigate to Entra ID](../)
 
 
 
