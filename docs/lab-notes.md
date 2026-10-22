@@ -232,6 +232,8 @@ And selected **Finish adding**, then **Close**.
 
 **Step 4 — Create Additional Standard Users**
 Created four further standard user accounts following the same pattern, visible on the Active users page.
+
+![Navigate to Entra ID](../screenshots/lab4-standard-users/06-image44.png)
 ![Navigate to Entra ID](../screenshots/lab4-standard-users/07-image45.png)
 
 
